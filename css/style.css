@@ -1,0 +1,15 @@
+body { margin: 0; background-image: url("https://images.pexels.com/photos/449460/pexels-photo-449460.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); background-size: cover; background-position: 30% 10%; }
+
+.container { width: 100%; padding-top: 5vh; height: 100vh; text-align: center; color: #fff; margin: 0 auto; }
+
+.board { width: 100%; margin: 0 auto; }
+
+.column-container { display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; margin: 0 auto; }
+
+.column-container > div { width: 33.3%; }
+
+ul { min-height: 50px; list-style-type: none; }
+
+.card { background-color: rgba(255, 255, 255, 0.5); }
+
+.card p { color: #000; }
