@@ -3,7 +3,7 @@
 // board declaration
 
 var board = {
-    name: 'Tablica Kanban',
+    name: 'Kanban Board',
     addColumn: function(column) {
         this.element.appendChild(column.element);
         initSortable(column.id); //About this feature we will tell later
@@ -26,7 +26,7 @@ document.querySelector('#board .create-column').addEventListener('click', functi
     })
     .then(function(resp) {
         var column = new Column(resp.id, name);
-        board.createColumn(column);
+        board.addColumn(column);
     });
 });
 
