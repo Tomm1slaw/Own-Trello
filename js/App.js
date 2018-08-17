@@ -1,4 +1,4 @@
-'use strict;'
+'use strict';
 
 // variables to connet with serwer
 
@@ -6,7 +6,7 @@ var baseUrl = 'https://kodilla.com/pl/bootcamp-api';
 var myHeaders = {
     'X-Client-Id': '3460',
     'X-Auth-Token': 'c7a836759193b92cef451a2ac4526c2b',
-    'Content-Type': 'application/json; charset=utf-8'
+    // 'Content-Type': 'application/json; charset=utf-8'
 };
 
 // function to request serfver for resource array

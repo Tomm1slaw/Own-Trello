@@ -3,7 +3,7 @@
 // board declaration
 
 var board = {
-    name: 'Kanban Board',
+    name: 'Tablica Kanban',
     addColumn: function(column) {
         this.element.appendChild(column.element);
         initSortable(column.id); //About this feature we will tell later
