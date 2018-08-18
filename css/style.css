@@ -1,4 +1,4 @@
-body { margin: 0; background-image: url("https://images.pexels.com/photos/1093913/pexels-photo-1093913.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); background-size: cover; }
+body { margin: 0; background-image: url("https://images.pexels.com/photos/1093913/pexels-photo-1093913.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); background-repeat: no-repeat; }
 
 .container { text-align: center; color: #fff; }
 
@@ -10,7 +10,7 @@ body { margin: 0; background-image: url("https://images.pexels.com/photos/109391
 
 .column-container > div { width: 33.3%; }
 
-.card { background-color: #fff; border-radius: 5%; }
+.card { background-color: #fff; border-radius: 5%; list-style-type: none; }
 
 .card p { color: #000; }
 

@@ -47,7 +47,7 @@ Column.prototype = {
             headers: myHeaders
         }).then(function(resp) {
             return resp.json();
-        }).then(function(resp) {
+        }).then(function() {
             self.element.parentNode.removeChild(self.element);
         });
     }

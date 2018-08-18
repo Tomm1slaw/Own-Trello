@@ -2,7 +2,7 @@ $create: green;
 body {
 	margin: 0;
 	background-image: url('https://images.pexels.com/photos/1093913/pexels-photo-1093913.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-	background-size: cover;
+	background-repeat: no-repeat;
 }
 .container {
 	text-align: center;
@@ -28,6 +28,7 @@ body {
 .card {
 	background-color: #fff;
 	border-radius: 5%;
+	list-style-type: none;
 }
 
 .card p {
