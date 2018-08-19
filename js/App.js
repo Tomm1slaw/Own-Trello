@@ -6,7 +6,6 @@ var baseUrl = 'https://kodilla.com/pl/bootcamp-api';
 var myHeaders = {
     'X-Client-Id': '3460',
     'X-Auth-Token': 'c7a836759193b92cef451a2ac4526c2b',
-    'Content-Type': 'text/html; charset=utf-8'
 };
 
 // function to request serfver for resource array
